@@ -1,9 +1,9 @@
 let inputDir = {x: 0, y:0};
-const foodSound = new Audio ('/snake-game/music/food.mp3');
-const gameOverSound = new Audio ('/snake-game/music/gameover.mp3');
-const moveSound = new Audio ('/snake-game/music/move.mp3');
-const music = new Audio ('/snake-game/music/music.mp3');
-let speed = 10;
+const foodSound = new Audio ('../music/food.mp3');
+const gameOverSound = new Audio ('../music/gameover.mp3');
+const moveSound = new Audio ('../music/move.mp3');
+const music = new Audio ('../music/music.mp3');
+let speed = 5;
 let score = 0;
 let lastPaintTime = 0;
 let snakeArray = [{x:13 , y:15}];
