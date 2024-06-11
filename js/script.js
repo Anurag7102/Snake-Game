@@ -1,8 +1,8 @@
 let inputDir = {x: 0, y:0};
-const foodSound = new Audio ('../music/food.mp3');
-const gameOverSound = new Audio ('../music/gameover.mp3');
-const moveSound = new Audio ('../music/move.mp3');
-const music = new Audio ('../music/music.mp3');
+const foodSound = new Audio ('https://drive.google.com/file/d/1xxgcHHSEg9JUAzOUcc-sceYDNyaOp9ma/view?usp=drive_link');
+const gameOverSound = new Audio ('https://drive.google.com/file/d/1GPFrnelk4TXHm0dgEwhjJflDA9EWhNes/view?usp=drive_link');
+const moveSound = new Audio ('https://drive.google.com/file/d/1HoBqq31qRvN0DyHU66pHsKJyTavy2Kqu/view?usp=drive_link');
+const music = new Audio ('https://drive.google.com/file/d/1A2lVZqfupPtSkQDsAbQTLdi2P89A8sX_/view?usp=drive_link');
 let speed = 5;
 let score = 0;
 let lastPaintTime = 0;
